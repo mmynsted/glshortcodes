@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="plugin">
+	<name>GlShortcodes</name>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+        <author url="http://growingliberty.com">Growing Liberty LLC</author>
+        <author url="https://github.com/mmynsted">github.com/mmynsted</author>
+	<version>0.01</version>
+        <url>https://github.com/mmynsted/</url>
+	<description><![CDATA[A simple set of shortcodes.]]></description>
+	<copyright>2013</copyright>
+	<guid>b75a3db2-2854-4948-97c5-b34a7a83c657</guid>
+        <help>
+           <value><![CDATA[
+              <p>This plugin provides a few simply shortcodes, templates.  More information about shortcodes are found <a href="http://wiki.habariproject.org/en/Shortcodes">here</a></p>
+              ]]></value>
+        </help>
+
+	<provides>
+           <feature url="http://wiki.habariproject.org/en/Shortcodes">Shortcodes</feature>
+	</provides>
+	
+</pluggable>
+ 
