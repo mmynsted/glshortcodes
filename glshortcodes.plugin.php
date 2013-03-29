@@ -53,13 +53,11 @@ class GlShortcodes extends Plugin
       //if width is set use it as the $imgWidth, else use 600
       $imgWidth = isset($attrs['width']) ?: '600';
       $imgAlign = isset($attrs['align']) ?: 'center';
+      $imgURL   = $attrs['url'];
+      $imgTitle = $attrs['title'];
 
       $result = <<<EOF
-<div style="text-align:$imgAlign">
-<a  rel="lightbox" href="$imgURL" title="$imgTitle">
-<img alt="$imgTitle" src="$imgURL" width="$imgWidth">
-</a>
-</div>
+<div style="text-align:$imgAlign"><a rel="lightbox" href="$imgURL" title="$imgTitle"><img alt="$imgTitle" src="$imgURL" width="$imgWidth"></a></div>
 EOF;
       return $result;
    }
