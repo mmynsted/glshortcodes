@@ -11,7 +11,7 @@
 	<guid>b75a3db2-2854-4948-97c5-b34a7a83c657</guid>
         <help>
            <value><![CDATA[
-              <p>This plugin provides a few simply shortcodes, templates.  More information about shortcodes are found <a href="http://wiki.habariproject.org/en/Shortcodes">here</a></p>
+              <p>This plugin provides a few simple shortcodes, templates.  More information about shortcodes are found <a target="_blank" href="http://wiki.habariproject.org/en/Shortcodes">here</a></p>
               ]]></value>
         </help>
 

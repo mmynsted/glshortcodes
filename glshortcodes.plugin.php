@@ -47,7 +47,7 @@ class GlShortcodes extends Plugin
     *  align = the image align (defaults to center)
     *
     **/  
-   function filter_shortcode_lightboximg($content, $code, $attrs, $context)
+   function filter_shortcode_lightboximg($content, $code, $attrs, $context = null)
    {
 
       //if width is set use it as the $imgWidth, else use 600
@@ -57,7 +57,7 @@ class GlShortcodes extends Plugin
       $imgTitle = $attrs['title'];
 
       $result = <<<EOF
-<div style="text-align:$imgAlign"><a rel="lightbox" href="$imgURL" title="$imgTitle"><img alt="$imgTitle" src="$imgURL" width="$imgWidth"></a></div>
+<div style="text-align:$imgAlign"><a rel="lightbox" href="$imgURL" title="$imgTitle"><img alt="$imgTitle" src="$imgURL" width="$imgWidth"></a>$context</div>
 EOF;
       return $result;
    }
