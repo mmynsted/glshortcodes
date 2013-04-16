@@ -36,8 +36,8 @@ class GlShortcodes extends Plugin
 {
 
    /**
-    * WARNING: This shortcode requires the imagebox plugin.  A future improvement might be to simply 
-    * upgrade the imagebox plugin.
+    * WARNING: This shortcode requires the Slimbox 2 plugin.  A future improvement might be to simply 
+    * upgrade the Slimbox 2 plugin.
     *
     * expect attrs:
     *  url = the image URL
