@@ -6,12 +6,12 @@
         <author url="https://github.com/mmynsted">github.com/mmynsted</author>
 	<version>0.01</version>
         <url>https://github.com/mmynsted/</url>
-	<description><![CDATA[A simple set of shortcodes.]]></description>
+	<description><![CDATA[A simple set of shortcodes, that when entered into the source of an article, expand like a macro or template when published.]]></description>
 	<copyright>2013</copyright>
 	<guid>b75a3db2-2854-4948-97c5-b34a7a83c657</guid>
         <help>
            <value><![CDATA[
-              <p>This plugin provides a few simple shortcodes, templates.  More information about shortcodes are found <a target="_blank" href="http://wiki.habariproject.org/en/Shortcodes">here</a></p>
+              <p>This plugin provides a few simple shortcode templates.  More information about shortcodes are found <a target="_blank" href="http://wiki.habariproject.org/en/Shortcodes">here</a></p>
               ]]></value>
         </help>
 
